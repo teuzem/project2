@@ -1,0 +1,198 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css);
+body{
+  font-family: "Poppins", "Lato";
+  font-size: 14px;
+  font-style: normal;
+}
+.main-section{
+  background-image: url(./../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size: cover;
+  padding-bottom:20px ;
+}
+.herosection{
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+.logo{
+  position: relative;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.navbar{
+  padding-top: 20px;
+  width: 100%;
+  font-family: 'Poppins';
+  margin-top: 10px;
+  margin-left: 750px;
+}
+.navbar a{
+  margin-left: 22px;
+  color: white;
+  font-family: 'Poppins';
+  font-size: 14px;
+  text-decoration: none;
+}
+.navbar a:hover{
+  font-style: italic;
+  font-weight: 600;
+  color: blueviolet;
+}
+.intro{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: left;
+  justify-content: left;
+  padding-left: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.title{
+  font-weight: bold;
+  font-style: bold;
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  color: white;
+}
+.intro p{
+  font-weight: 500;
+  font-style: bold;
+  font-family: 'Lato';
+  font-size: 20px;
+  color: white;
+}
+.cta-button {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 110px;
+  height: 40px;
+  font-size: 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+  color: blue;
+  background-color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  width: 220px;
+  height: 80px;
+  text-transform: uppercase;
+  text-shadow: pink;
+}
+.first-section{
+  padding-top: 20px;
+  text-align: center;
+  
+}
+*{
+  /* border: 1px solid red; */
+}
+.features{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+}
+.second-section{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(207, 238, 238);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.second-section h1{
+  font-weight: 700;
+  font-style: bold;
+  font-family: 'algerian';
+  color: black;
+}
+.second-section p, li{
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(36, 36, 36);
+  font-family: 'Poppins';
+}
+.image{ 
+  width: 320px;
+  height: 190px;
+}
+.about{
+  padding-bottom: 30px;
+  align-content: center;
+  align-items: center;
+}
+.button{
+  background-color: blueviolet;
+  text-transform: capitalize;
+  color: white;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+}
+.third-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: aliceblue;
+  text-align: center;
+
+}
+.name{
+  margin-top: 30px;
+}
+.function{
+  padding-top: 30px;
+  margin-top: 10px;
+}
+.last-section{
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  background-color: darkgrey ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.icon{
+  width: 60px;
+  height: 25px;
+}
+.icons{
+  width: 150px;
+  height: 25px;
+}
+.phone{
+ justify-content: left;
+ justify-content: space-between;
+}
+.last-section p{
+margin: 0 auto;
+
+}
+.social-icon{
+  justify-content: right;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.star{
+  display: flex;
+  flex-direction: inline;
+ justify-content: center;
+ padding-top: 5px;
+}
